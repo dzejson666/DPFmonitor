@@ -98,7 +98,7 @@ Na ekran drugi można przejść z pierwszego naciskając lewy przycisk.
 - Obroty silnika<br>
   Obroty silnika są odczytywane w celu blokady konfiguracji stop-start. Chwilowo są tu umieszczone do czasu gdy zastąpią je inne parametry.
 - Dystans od regeneracji<br>
-  Jest to dystans odczytany z komputera samochodu.
+  Jest to rzeczywisty dystans od ostatniej regeneracji odczytany na bierząco z komputera samochodu.
 
 ##### Ekran 3
 
