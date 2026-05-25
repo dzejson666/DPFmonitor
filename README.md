@@ -11,6 +11,15 @@ Obecnie działają ekrany 1, 2, 3. Ekran 4 wymaga zrobienia bo parametry są na 
 
 Urządzenie nie posiada obudowy. Z doświadczenia uważam, że elektronika nie jest jakoś super wrażliwa ale potencjalnie wyładowanie elektryczne może je uszkodzić. Tak samo upadek z wysokości większej niż 20cm.
 
+Testowane jak na razie z P5008 2.0 Blue HDI z 2022 roku z suchym DPF.
+Powinno działać z każdym samochodem w którym CarScanner jest połączony z 2.0 HDI ECU DCM6.2 i odczytuje następujące parametry:
+
+- Engine RPM
+- Reagent Tank Level
+- [ECM] DPF differentil pressure
+- [ECM] DPF soot
+- [ECM] DPF distance since last regen
+- Catalyst temperature Bank 1 Sensor 1
 
 
 
@@ -129,4 +138,5 @@ Nie ukończone
 
 Ekran pokazujący MAC adres interfejsu OBD2 lub informację o braku zaprogramowanego intefejsu.
 
+Gdy MAC jescze nie jest skonfigurowany DPF Monitor szuka urządzeń Bluetooth o nazwach VLINK lub OBDII. Gdy znajdzie takie urządzenie automatycznie zapisuje jego MAC i od tej pory po uruchomieniu próbuje się łączyć tylko z nim.
 (opis do uzupełnienia)
