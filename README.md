@@ -31,7 +31,7 @@ Aktualny stan projektu:
 Elementy urządzenia
 
 ![Ekran startowy](./images/ekranstart.jpg)
-
+<img src="./images/ekranstart.jpg" alt="Ekran startowy" width="300">
 
 Lewy przycisk - następny ekran/opcja
 
