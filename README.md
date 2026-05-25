@@ -116,7 +116,7 @@ Po wciśnięciu prawego przycisku pojawi się ekran jak poniżej.
 
 Za pomocą lewego przycisku należy wybrać opcję i następnie aktywować ją prawym. Po wykonaniu operacji DPF Monitor wyświetli potwierdzenie.
 
-Uwaga 1: Przy deaktywowanym Stop-Start na desce cały czas świeci się ikona wyłączonego systemu. W manu samochodu nie można go ponownie włączyć.
+Uwaga 1: Przy deaktywowanym Stop-Start na desce cały czas świeci się ikona wyłączonego systemu. W manu samochodu nie można go ponownie włączyć.<br>
 Uwaga 2: Przy ponownym aktywowaniu opcji Stop-Start, na desce rozdzielczej ciągle świeci ikona wyłączonego systemu. Należy wejść do menu samochodu i włączyć go ręcznie.
 
 ##### Ekran 4
