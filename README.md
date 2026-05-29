@@ -7,7 +7,7 @@
 #### Aktualny stan projektu:
 
 Projekt jest w stanie rozwojowym.
-Obecnie działają ekrany 1, 2, 3. Ekran 4 wymaga zrobienia bo parametry są na sztywno wpisane w program, pasujące do mojego samochodu. 
+Obecnie działają ekrany 0, 1, 2, 3. Ekran 4 wymaga zrobienia bo parametry są na sztywno wpisane w program, pasujące do mojego samochodu. 
 
 Urządzenie nie posiada obudowy. Z doświadczenia wiem, że elektronika nie jest jakoś super wrażliwa ale potencjalnie wyładowanie elektryczne może je uszkodzić. Tak samo upadek z wysokości większej niż 20cm. Używam urządzenia w takiej postaci przez 3 miesiące i nic mu nie jest. Obudowa jest w planach gdzieś w przyszłości.
 
