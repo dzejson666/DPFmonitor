@@ -21,7 +21,7 @@ Powinno działać z każdym samochodem w którym CarScanner jest połączony z 2
 - [ECM] DPF distance since last regen
 - Catalyst temperature Bank 1 Sensor 1
 
-poniżej ustawienia car scanner:
+poniżej ustawienia car scanner. Jeżeli z nimi zadziałą to Monitor też będzie działał.
 
 <img src="./images/carscannersettings.jpeg" alt="Car scanner" width="250">
 
