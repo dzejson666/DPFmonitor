@@ -7,9 +7,9 @@
 #### Aktualny stan projektu:
 
 Projekt jest w stanie rozwojowym.
-Obecnie działają ekrany 1, 2, 3. Ekran 4 wymaga zrobienia bo parametry są na sztywno wpisane w program, pasujące do mojego samochodu. 
+Obecnie działają ekrany 0, 1, 2, 3. Ekran 4 wymaga zrobienia bo parametry są na sztywno wpisane w program, pasujące do mojego samochodu. 
 
-Urządzenie nie posiada obudowy. Z doświadczenia uważam, że elektronika nie jest jakoś super wrażliwa ale potencjalnie wyładowanie elektryczne może je uszkodzić. Tak samo upadek z wysokości większej niż 20cm.
+Urządzenie nie posiada obudowy. Z doświadczenia wiem, że elektronika nie jest jakoś super wrażliwa ale potencjalnie wyładowanie elektryczne może je uszkodzić. Tak samo upadek z wysokości większej niż 20cm. Używam urządzenia w takiej postaci przez 3 miesiące i nic mu nie jest. Obudowa jest w planach gdzieś w przyszłości.
 
 Testowane jak na razie z P5008 2.0 Blue HDI z 2022 roku z suchym DPF.
 Powinno działać z każdym samochodem w którym CarScanner jest połączony z 2.0 HDI ECU DCM6.2 i odczytuje następujące parametry:
@@ -21,7 +21,9 @@ Powinno działać z każdym samochodem w którym CarScanner jest połączony z 2
 - [ECM] DPF distance since last regen
 - Catalyst temperature Bank 1 Sensor 1
 
+poniżej ustawienia car scanner:
 
+<img src="./images/carscannersettings.jpeg" alt="Car scanner" width="250">
 
 
 #### Potrzebne komponenty i połączenie.
@@ -53,9 +55,9 @@ Prawy przycisk - wybierz
 
 
 1. Włożyć interfejs OBD2 do gniazda w samochodzie.
-2. Podłączyć zasilanie do urządzenia za pomocą kabla USB.
+2. Podłączyć zasilanie do monitora za pomocą kabla USB.
 3. Nacisnąć przycisk aktywowania interfejsu OBD2 jeśli jest w taki przycisk wyposażony.
-4. Sparować urządzenie z interfejsem OBD2.
+4. Monitor sparuje się automatycznie z interfejsem OBD2 które ma nazwę VLINK albo OBDII
 
 
 
@@ -140,3 +142,11 @@ Ekran pokazujący MAC adres interfejsu OBD2 lub informację o braku zaprogramowa
 
 Gdy MAC jescze nie jest skonfigurowany DPF Monitor szuka urządzeń Bluetooth o nazwach VLINK lub OBDII. Gdy znajdzie takie urządzenie automatycznie zapisuje jego MAC i od tej pory po uruchomieniu próbuje się łączyć tylko z nim.
 (opis do uzupełnienia)
+
+##### Ekran 0
+
+<img src="images/ekran0.jpeg" alt="Ekran 5" width="250">
+
+Ekran normalnie niewidoczny. Pojawia się gdy rozpocznie się wypalanie.
+
+
