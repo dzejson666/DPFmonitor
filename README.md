@@ -20,8 +20,9 @@ Powinno działać z każdym samochodem w którym CarScanner jest połączony z 2
 - [ECM] DPF soot
 - [ECM] DPF distance since last regen
 - Catalyst temperature Bank 1 Sensor 1
+- MAF air flow rate
 
-poniżej ustawienia car scanner. Jeżeli z nimi zadziałą to Monitor też będzie działał.
+poniżej ekran z ustawieniami car scanner. Jeżeli car scanner z tymi ustawieniami pokazuje powyższe parametry to Monitor też będzie działał.
 
 <img src="./images/carscannersettings.jpeg" alt="Car scanner" width="250">
 
