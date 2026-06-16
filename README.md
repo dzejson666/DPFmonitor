@@ -22,7 +22,7 @@ Powinno działać z każdym samochodem w którym CarScanner jest połączony z 2
 - Catalyst temperature Bank 1 Sensor 1
 - MAF air flow rate
 
-poniżej ekran z ustawieniami car scanner. Jeżeli car scanner z tymi ustawieniami pokazuje powyższe parametry to Monitor też będzie działał.
+poniżej ekran z ustawieniami car scanner. Jeżeli car scanner połączony do samochodu z tymi ustawieniami pokazuje powyższe parametry to Monitor też będzie działał.
 
 <img src="./images/carscannersettings.jpeg" alt="Car scanner" width="250">
 
