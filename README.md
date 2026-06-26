@@ -7,7 +7,7 @@
 #### Aktualny stan projektu:
 
 Projekt jest w stanie rozwojowym.
-Obecnie działają ekrany 0, 1, 2, 3. Ekran 4 wymaga zrobienia bo parametry są na sztywno wpisane w program, pasujące do mojego samochodu. 
+Obecnie działają ekrany 0, 1, 2, 3. Ekran 4 wymaga zrobienia bo parametry są na sztywno wpisane w program, pasujące do mojego samochodu. Powinienem zakończyć programowanie do połowy czerwca.
 
 Urządzenie nie posiada obudowy. Z doświadczenia wiem, że elektronika nie jest jakoś super wrażliwa ale potencjalnie wyładowanie elektryczne może je uszkodzić. Tak samo upadek z wysokości większej niż 20cm. Używam urządzenia w takiej postaci przez 3 miesiące i nic mu nie jest. Obudowa jest w planach gdzieś w przyszłości.
 
@@ -20,8 +20,9 @@ Powinno działać z każdym samochodem w którym CarScanner jest połączony z 2
 - [ECM] DPF soot
 - [ECM] DPF distance since last regen
 - Catalyst temperature Bank 1 Sensor 1
+- MAF air flow rate
 
-poniżej ustawienia car scanner:
+poniżej ekran z ustawieniami car scanner. Jeżeli car scanner połączony do samochodu z tymi ustawieniami pokazuje powyższe parametry to Monitor też będzie działał.
 
 <img src="./images/carscannersettings.jpeg" alt="Car scanner" width="250">
 
