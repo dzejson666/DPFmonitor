@@ -79,10 +79,12 @@ Wyświetla on następujące parametry:
   Ponieważ wypalanie może rozpocząć się przy różnych ilościach sadzy które nie są przewidywalne, wartość procentowa jest liczona od stałej wartości ustawionej w parametrach.
 - Ciśnienie różnicowe<br>
   Ciśnienie różnicowe pomiędzy wejściem i wyjściem filtra. Ciśnienie rośnie zależnie od następujących czynników: ilości sadzy w filtrze, obrotów silnika i obciążenia silnika.
+  Ponieważ ciśnienie różnicowe jest zmienne podczas jazdy i niełatwo jest z niego określić stan filtra DPF, poszukuję innego sposobu na ustalenie tego. Obok pomiaru ciśnienia umieściłem współczynnik który pokazuje stosunek ciśnienia różnicowego do zmierzonego przepływu. Wygląda obiecująco. Jak na razie dobrze pokazuje czy wypalanie było dobrze wykonane.
 - Temperatura katalizatora<br>
   Temperatura filtra DPF. Wypalanie wykrywane jest poprzez wzrost temperatury powyżej granicznej wartości.
 - Dystans do regeneracji<br>
   Dystans liczony jako procentowe zapełnienie filtra sadzą i liczby przejechanych kilometrów od ostatniej regeneracji. Ze względu na fakt, że nie wiadomo dokładnie przy jakiej ilości sadzy rozpocznie się wypalanie i ile sadzy zostanie po wypalaniu, obliczenia przyjmują pewne założone progi co oznacza, że wyliczony dystans jest tylko orientacyjny. Dodatkowo zmienia się on w zależności od szybkości przyrastania ilości sadzy.
+  Liczba obok to kilometry od ostatniej regeneracji odczytane z komputera pojazdu.
 
  
 
