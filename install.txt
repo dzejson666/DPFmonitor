@@ -1,0 +1,28 @@
+ESP32 Flash Download Tool (oficjalny, Espressif, tylko Windows, GUI).
+Użytkownik pobiera "Flash Download Tools" ze strony Espressif, wskazuje 3-4 pliki .bin z odpowiednimi offsetami, wybiera port COM, klika START. Nie musi nic instalować ani kompilować. Dla nietechnicznych osób najlepsze.
+
+Uniwersalnie: esptool (linia poleceń, każdy system).
+Jedna komenda:
+
+esptool.py --chip esp32 --port COM5 --baud 921600 write_flash ^
+  0x1000 bootloader.bin ^
+  0x8000 partitions.bin ^
+  0xe000 boot_app0.bin ^
+  0x10000 DPF_Monitor_v1_3.ino.bin
+
+Wymaga Pythona + pip install esptool.
+
+Najwygodniej dla laika: web flasher (przeglądarka).
+ESP Web Tools albo Espressif Launchpad — użytkownik wchodzi na stronę w Chrome/Edge, podłącza ESP32 USB, klika "Connect" i "Install". Zero instalacji. Ty musisz przygotować scaloną binarkę (merged.bin) i plik manifestu — to trochę więcej pracy po Twojej stronie, ale dla odbiorcy najprościej.
+
+Scalenie do jednego pliku (ułatwia dystrybucję)
+
+Zamiast rozdawać 4 pliki z offsetami, możesz scalić je w jeden:
+
+esptool.py --chip esp32 merge_bin -o merged.bin ^
+  0x1000 bootloader.bin ^
+  0x8000 partitions.bin ^
+  0xe000 boot_app0.bin ^
+  0x10000 DPF_Monitor_v1_3.ino.bin
+
+Wtedy odbiorca wgrywa jeden merged.bin pod offset 0x0 — mniej okazji do pomyłki.
